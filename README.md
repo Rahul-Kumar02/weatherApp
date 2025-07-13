@@ -1,12 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌤 Weather App
 
-Currently, two official plugins are available:
+A real-time weather forecast application built using *React + Vite*. It uses a weather API (like OpenWeatherMap) to show live weather information including temperature, humidity, wind speed, and weather icons. Designed with Tailwind CSS for clean and responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
+- React JS
+- Vite
+- Tailwind CSS
+- Weather API (OpenWeatherMap or similar)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+- Real-time weather data
+- City-wise search
+- Wind speed, humidity, temperature display
+- Weather condition icon (sunny, rainy, cloudy, etc.)
+- Responsive UI with Tailwind CSS
+
+---
+
+## ⚙ How to Run
+
+```bash
+npm install
+npm run dev
